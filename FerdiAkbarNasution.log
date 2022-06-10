@@ -1,0 +1,36 @@
+MariaDB [(none)]> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| lab                |
+| mhs                |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| prak_sbd           |
+| project            |
+| proweb             |
+| task_manager       |
+| test               |
+| website_laravel    |
+| websitedb          |
++--------------------+
+13 rows in set (0.001 sec)
+
+MariaDB [(none)]> CREATE TABLE TASK_MANAGER
+    -> ;
+ERROR 1046 (3D000): No database selected
+MariaDB [(none)]> CREATE DATABASE TASK_MANAGER;
+ERROR 1007 (HY000): Can't create database 'task_manager'; database exists
+MariaDB [(none)]> USE DATABASE TASK_MANAGER;
+ERROR 1049 (42000): Unknown database 'database'
+MariaDB [(none)]> USE TASK_MANAGER;
+Database changed
+MariaDB [TASK_MANAGER]> SHOW TABLES;
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+ERROR 2002 (HY000): Can't connect to MySQL server on 'localhost' (10061)
+ERROR: Can't connect to the server
+
+unknown [TASK_MANAGER]> QUIT
