@@ -1,5 +1,5 @@
 👋 Hi, I’m Ferdi
-- Passionate about **Data Science**, **Machine Learning**, and **AI Applications**
+- Passionate about **Backend Development**, **Networking**, and **Cybersecurity!**
 --------------
 👀 I’m interested in:
 - Turning raw data into insights through analysis and visualization  
